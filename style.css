@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgb(50, 0, 79), rgb(101, 28, 140), rgb(135, 55, 181));
+    background-attachment: fixed;
+}
+
+.nome {
+    transform: translateY(-50px);
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+}
+
+.container-1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 {
+    width: 60%;
+
+}
+
+.digite {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 100%;
+
+}
+
+.todo-input {
+    width: 86%;
+    height: 47px;
+    font-size: 18px;
+    padding: 0 20px;
+    border: none;
+}
+
+.todo-button {
+    width: 47px;
+    height: 47px;
+    background-color: rgb(57, 150, 57);
+    border: none;
+    cursor: pointer;
+
+}
+
+.todo-button:hover {
+    background-color: rgb(72, 187, 72);
+    border: 2px solid rgb(31, 29, 29);
+    transform: scale(1.06);
+}
+
+.todo-container {
+    width: 100%;
+    height: 40vh;
+}
+
+.item {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin: 20px 0;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.item:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.feito {
+    text-decoration: line-through;
+    background-color: rgb(199, 223, 199);
+
+}
+
+.item-icone {
+    width: 5%;
+    cursor: pointer;
+    color: rgb(29, 92, 29);
+}
+
+.item-icone:hover {
+    transform: scale(1.05);
+    color: rgb(24, 163, 28);
+}
+
+.item-nome {
+    width: 90%;
+    padding-left: 10px;
+}
+
+.item-delete {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(181, 0, 0);
+}
+
+.item-delete:hover {
+    transform: scale(1.1);
+    color: rgb(255, 0, 0);
+}
+
+.limpar-tudo {
+    background-color: aliceblue;
+}
